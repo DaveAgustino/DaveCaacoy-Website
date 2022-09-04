@@ -1,0 +1,352 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    img {
+        width: 200px;
+        height: 199px;
+        border-radius: 50%;
+        -webkit-border-radius: 50% white;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 50%;
+        max-width: 800px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        border: 3px solid rgb(23 23 23);
+        box-shadow: 8px 8px 0px rgb(209 213 219);
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    a:hover {
+        box-shadow: none;
+        transform: translate(8px, 8px);
+        -webkit-transform: translate(8px, 8px);
+        -moz-transform: translate(8px, 8px);
+        -ms-transform: translate(8px, 8px);
+        -o-transform: translate(8px, 8px);
+    }
+}
